@@ -1,0 +1,37 @@
+{
+    "name": "lysice/laravel-xhprof",
+    "description": "Library for profiling queries in Laravel with xhprof",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "profiler",
+        "profiling",
+        "xhprof",
+        "code",
+        "php"
+    ],
+    "authors": [
+        {
+            "name": "lysice",
+            "email": "snowist@126.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "laravel/framework": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lysice\\LaravelXhProf\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lysice\\LaravelXhProf\\XhProfServiceProvider"
+            ]
+        }
+    }
+}
